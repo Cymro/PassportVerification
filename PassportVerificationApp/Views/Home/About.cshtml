@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>Passport Verification Application</h3>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Application</h2>
+        <p>
+            Written as a simple MVC application with consisting of these components:
+            <ul>
+                <li>
+                    Controller
+                    <ul>
+                        <li>PassportVerification</li>
+                    </ul>
+                </li>
+                <li>
+                    Models
+                    <ul>
+                        <li>PassportVerificationVM</li>
+                        <li>PassportVerificationResultVM</li>
+                    </ul>
+                </li>
+                <li>
+                    Views
+                    <ul>
+                        <li>Form</li>
+                        <li>Result</li>
+                    </ul>
+                </li>
+            </ul>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Api</h2>
+        <p>A simple Web API with methods method to verify Passport MRZ Line 2 details.</p>
+        <p>Both Post and Get versions of the Verify method have been implemented.</p>
+        <p>Authentication was considered but not implemented, as this is not a requirement.  Additionally
+        a server-to-server call was chosen from the Web App rather than client-to-server</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Library</h2>
+        <p>The library is responsible for the core verification logic.</p>
+        <p>With additional time, a Country repository would have been implemented against which to validate
+        the Nationality field...though this was not a requirement based on the required results</p>
+        <p>Input validation has been implemented at all 3 layers of the application - Web App, Web Api and Lib.</p>
+    </div>
+</div>

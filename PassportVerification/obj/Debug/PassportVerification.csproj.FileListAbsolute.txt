@@ -1,0 +1,11 @@
+C:\Users\Dad\Source\repos\PassportVerificationApi\PassportVerification\bin\Debug\PassportVerification.dll
+C:\Users\Dad\Source\repos\PassportVerificationApi\PassportVerification\bin\Debug\PassportVerification.pdb
+C:\Users\Dad\Source\repos\PassportVerificationApi\PassportVerification\obj\Debug\PassportVerification.csprojAssemblyReference.cache
+C:\Users\Dad\Source\repos\PassportVerificationApi\PassportVerification\obj\Debug\PassportVerification.csproj.CoreCompileInputs.cache
+C:\Users\Dad\Source\repos\PassportVerificationApi\PassportVerification\obj\Debug\PassportVerification.dll
+C:\Users\Dad\Source\repos\PassportVerificationApi\PassportVerification\obj\Debug\PassportVerification.pdb
+C:\Users\Steph\source\repos\PassportVerification\PassportVerification\bin\Debug\PassportVerification.dll
+C:\Users\Steph\source\repos\PassportVerification\PassportVerification\bin\Debug\PassportVerification.pdb
+C:\Users\Steph\source\repos\PassportVerification\PassportVerification\obj\Debug\PassportVerification.csproj.CoreCompileInputs.cache
+C:\Users\Steph\source\repos\PassportVerification\PassportVerification\obj\Debug\PassportVerification.dll
+C:\Users\Steph\source\repos\PassportVerification\PassportVerification\obj\Debug\PassportVerification.pdb

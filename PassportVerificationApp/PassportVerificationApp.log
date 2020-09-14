@@ -1,0 +1,30 @@
+2019-06-10 23:15:44,922 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi
+2019-06-10 23:22:33,726 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi
+2019-06-10 23:45:54,963 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi
+2019-06-10 23:49:36,251 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi
+2019-06-10 23:50:24,114 [6] ERROR PassportVerificationApp.ErrorLogService - System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:44319
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at PassportVerificationApp.Controllers.PassportVerificationController.<Validate>d__4.MoveNext() in C:\Users\Dad\Source\repos\PassportVerificationApi\PassportVerificationApp\Controllers\PassportVerificationController.cs:line 70
+2019-06-11 00:11:24,305 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi
+2019-06-11 00:58:58,779 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi
+2019-06-11 01:20:32,432 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi
+2019-06-11 01:55:45,033 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi
+2020-09-14 12:16:51,308 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi
+2020-09-14 12:24:43,067 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi
+2020-09-14 12:39:00,950 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi
+2020-09-14 13:01:11,120 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi
+2020-09-14 13:03:47,583 [9] ERROR PassportVerificationApp.ErrorLogService - System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at PassportVerificationApp.Controllers.PassportVerificationController.<Validate>d__4.MoveNext() in C:\Users\Steph\source\repos\PassportVerification\PassportVerificationApp\Controllers\PassportVerificationController.cs:line 71
+2020-09-14 13:13:42,616 [1] INFO PassportVerificationApp.MvcApplication - Starting PassportVerificationApi

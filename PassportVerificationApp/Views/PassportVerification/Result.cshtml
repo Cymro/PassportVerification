@@ -1,0 +1,77 @@
+﻿@model PassportVerificationApp.Models.PassportVerificationResultVM
+
+@{
+    ViewBag.Title = "Passport Verification";
+}
+
+<style>
+    .table-content {
+        max-width: 600px;
+        margin: auto;
+    }
+
+.rows div:nth-child(even) {
+    background-color:#b0aecc;
+}
+.rows div:nth-child(odd) {
+    background-color:#9897aa;
+}
+</style>
+
+<h2>Passport Verification</h2>
+
+<div>
+    <div>
+        <h4>Passport Verification Result</h4>
+        <hr />
+        <div class="rows">
+            <div class="detail">
+                <div class="col-sm-8">@Html.DisplayNameFor(model => model.PassportNumberCheckDigitValid)</div>
+                <div class="col-sm-4">@Html.DisplayFor(model => model.PassportNumberCheckDigitValid)</div>
+            </div>
+            <div class="detail">
+                <div class="col-sm-8">@Html.DisplayNameFor(model => model.DateOfBirthCheckDigitValid)</div>
+                <div class="col-sm-4">@Html.DisplayFor(model => model.DateOfBirthCheckDigitValid)</div>
+            </div>
+            <div class="detail">
+                <div class="col-sm-8">@Html.DisplayNameFor(model => model.PassportExpirationDateCheckDigitValid)</div>
+                <div class="col-sm-4">@Html.DisplayFor(model => model.PassportExpirationDateCheckDigitValid)</div>
+            </div>
+            <div class="detail">
+                <div class="col-sm-8">@Html.DisplayNameFor(model => model.PersonalNumberCheckDigitValid)</div>
+                <div class="col-sm-4">@Html.DisplayFor(model => model.PersonalNumberCheckDigitValid)</div>
+            </div>
+            <div class="detail">
+                <div class="col-sm-8">@Html.DisplayNameFor(model => model.FinalCheckDigitValid)</div>
+                <div class="col-sm-4">@Html.DisplayFor(model => model.FinalCheckDigitValid)</div>
+            </div>
+            <div class="detail">
+                <div class="col-sm-8">@Html.DisplayNameFor(model => model.GenderCrossChecked)</div>
+                <div class="col-sm-4">@Html.DisplayFor(model => model.GenderCrossChecked)</div>
+            </div>
+            <div class="detail">
+                <div class="col-sm-8">@Html.DisplayNameFor(model => model.DateOfBirthCrossChecked)</div>
+                <div class="col-sm-4">@Html.DisplayFor(model => model.DateOfBirthCrossChecked)</div>
+            </div>
+            <div class="detail">
+                <div class="col-sm-8">@Html.DisplayNameFor(model => model.PassportExpirtaionDateCrossChecked)</div>
+                <div class="col-sm-4">@Html.DisplayFor(model => model.PassportExpirtaionDateCrossChecked)</div>
+            </div>
+            <div class="detail">
+                <div class="col-sm-8">@Html.DisplayNameFor(model => model.NationalityCrossChecked)</div>
+                <div class="col-sm-4">@Html.DisplayFor(model => model.NationalityCrossChecked)</div>
+            </div>
+            <div class="detail">
+                <div class="col-sm-8">@Html.DisplayNameFor(model => model.PassportNumberCrossChecked)</div>
+                <div class="col-sm-4">@Html.DisplayFor(model => model.PassportNumberCrossChecked)</div>
+            </div>  
+        </div>
+        <div class="dl-horizontal">@Html.ValidationSummary(true, "", new { @class = "text-danger" })</div>
+    </div>
+</div>
+<div class="body-content">
+    <p>
+        @Html.ActionLink("Home", "Index", "Home") |
+        @Html.ActionLink("Validate Another", "Form", new { /* id = Model.PrimaryKey */ })
+    </p>
+</div>
